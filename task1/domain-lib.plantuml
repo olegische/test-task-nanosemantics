@@ -1,0 +1,12 @@
+@startuml
+
+!$Usr = "User"
+!$VA = "Virtual Assistant"
+
+
+!$cn = "connect"
+!$dcn = "disconnect"
+!$in = "interact"
+!$ch = "check"
+
+@enduml

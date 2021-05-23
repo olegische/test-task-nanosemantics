@@ -1,0 +1,31 @@
+@startuml
+
+!include domain-lib.plantuml
+
+skinparam monochrome true
+
+left to right direction
+
+!$ep = "\n ext. point: "
+
+actor "$Usr" as Usr
+
+usecase "$cn $VA" as cnVA
+usecase "$in $VA" as inVA
+usecase "$in with Voice Input" as inVIn
+usecase "$in with Text Input" as inTIn
+
+rectangle System {
+  usecase "$dcn $VA" as dcnVA
+  usecase "$ch connected $VA" as chVA
+}
+
+Usr --> cnVA
+cnVA ..> chVA : <<include>>
+chVA <. dcnVA : <<extend>> $ep $VA connected
+
+Usr --> inVA
+inVA <.left. inVIn : <<extend>> $ep voice input used
+inVA <.right. inTIn : <<extend>> $ep text $VA
+
+@enduml
