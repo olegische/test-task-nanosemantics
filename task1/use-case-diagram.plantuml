@@ -26,6 +26,6 @@ chVA <. dcnVA : <<extend>> $ep $VA connected
 
 Usr --> inVA
 inVA <.left. inVIn : <<extend>> $ep voice input used
-inVA <.right. inTIn : <<extend>> $ep text $VA
+inVA <.right. inTIn : <<extend>> $ep text input used
 
 @enduml
