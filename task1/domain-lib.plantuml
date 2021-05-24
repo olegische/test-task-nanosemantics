@@ -6,6 +6,9 @@
 !$ASRSrv = "ASR "+$Srv
 !$TTSSrv = "TTS "+$Srv
 !$VA = "Virtual Assistant"
+!$VAC = "VirtualAssistantClass"
+!$ID = "UUID"
+!$Dl = "Deployment"
 
 !$In = "Input"
 !$Out = "Output"
@@ -22,5 +25,22 @@
 !$gn = "generate"
 !$an = "analyse"
 !$syn = "synthesize"
+!$sl = "select"
+!$gt = "get"
+!$dl = "deploy"
+!$cr = "create"
+!$cnf = "configure"
+!$vr = "verify"
+
+'states'
+!$cnd = $cn+"ed"
+!$dcnd = $dcn+"ed"
+!$sld = $sl+"ed"
+!$vrd = $vr+"ed"
+!$vrng = $vr+"ing"
+!$wtDl = "waiting "+$Dl
+!$dld = $dl+"ed"
+!$crd = $cr+"d"
+!$cnfd = $cnf+"d"
 
 @enduml

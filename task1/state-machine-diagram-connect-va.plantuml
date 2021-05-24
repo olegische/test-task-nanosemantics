@@ -1,0 +1,47 @@
+@startuml
+
+!include domain-lib.plantuml
+
+skinparam monochrome true
+
+
+state "$cnd" as cnd
+state "$dcnd" as dcnd
+state "$sld" as sld
+state "$vrng" as vrng {
+
+  state "$vr $VA" as vrVA <<entryPoint>>
+  state c1 <<choice>>
+  state "$vrd" as vrd
+  state isConnected  <<exitPoint>>
+  state default <<exitPoint>>
+
+  vrVA --> vrd
+  vrd --> c1
+  c1 --> isConnected : [isConnected == true]
+  c1 --> default : [else]
+}
+state "$vrd" as vrd
+state "$wtDl" as wtDl {
+
+  state "$crd" as crd
+  state "$cnfd" as cnfd
+
+  [*] -right-> crd : $cr(type)/
+  crd -right-> cnfd : $cnf(va:$VAC, c:$Cnt)/
+  cnfd -right-> [*]
+}
+state "$dld" as dld
+
+[*] -right-> dcnd
+dcnd --> sld : $sl($ID)/
+sld --> vrVA : $vr($ID)/
+default --> wtDl : $gt(type, c:$Cnt)/
+wtDl --> dld : $dl(va:$VAC)
+dld --> cnd : $cn(va:$VAC)
+cnd --> [*]
+
+isConnected --> dcnd : disconnect($ID)/
+
+
+@enduml
