@@ -1,12 +1,26 @@
 @startuml
 
 !$Usr = "User"
+!$Srv = "Server"
+!$DPSrv = "DP "+$Srv
+!$ASRSrv = "ASR "+$Srv
+!$TTSSrv = "TTS "+$Srv
 !$VA = "Virtual Assistant"
 
+!$In = "Input"
+!$Out = "Output"
+!$Vc = "Voice"
+!$Txt = "Text"
+!$Sp = "Speech"
+!$Cnt = "Context"
 
 !$cn = "connect"
 !$dcn = "disconnect"
 !$in = "interact"
 !$ch = "check"
+!$rc = "recognize"
+!$gn = "generate"
+!$an = "analyse"
+!$syn = "synthesize"
 
 @enduml

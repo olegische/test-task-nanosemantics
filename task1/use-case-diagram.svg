@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="529px" preserveAspectRatio="none" style="width:820px;height:529px;" version="1.1" viewBox="0 0 820 529" width="820px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="f178wpe71kl4c7" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0" />
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0" />
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3" />
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal" />
+        </filter>
+    </defs>
+    <g>
+        <!--MD5=[da6a0c0de23caee59f6960a91f0399b7]
+cluster Virtual Assistant Deploy System-->
+        <rect fill="#FFFFFF" filter="url(#f178wpe71kl4c7)" height="205" style="stroke: #000000; stroke-width: 1.5;" width="270" x="409" y="7" /><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="251" x="418.5" y="21.9951">Virtual Assistant Deploy System</text>
+        <ellipse cx="543.8679" cy="58.1736" fill="#F8F8F8" filter="url(#f178wpe71kl4c7)" rx="106.3679" ry="23.6736" style="stroke: #383838; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="190" x="448.8679" y="62.822">disconnect Virtual Assistant</text>
+        <ellipse cx="543.8908" cy="175.7782" fill="#F8F8F8" filter="url(#f178wpe71kl4c7)" rx="126.8908" ry="27.7782" style="stroke: #383838; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="234" x="426.8908" y="180.4266">check connected Virtual Assistant</text>
+        <!--MD5=[23118665cfd8bd5f56509b8abd427f2a]
+entity Usr-->
+        <ellipse cx="22" cy="244" fill="#F8F8F8" filter="url(#f178wpe71kl4c7)" rx="8" ry="8" style="stroke: #383838; stroke-width: 1.5;" />
+        <path d="M22,252 L22,279 M9,260 L35,260 M22,279 L9,294 M22,279 L35,294 " fill="none" filter="url(#f178wpe71kl4c7)" style="stroke: #383838; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="32" x="6" y="312.4951">User</text>
+        <!--MD5=[9ea69d93ebdf762acd7484ade5663620]
+entity DPSrv-->
+        <ellipse cx="770" cy="448" fill="#F8F8F8" filter="url(#f178wpe71kl4c7)" rx="8" ry="8" style="stroke: #383838; stroke-width: 1.5;" />
+        <path d="M770,456 L770,483 M757,464 L783,464 M770,483 L757,498 M770,483 L783,498 " fill="none" filter="url(#f178wpe71kl4c7)" style="stroke: #383838; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="68" x="736" y="516.4951">DP Server</text>
+        <!--MD5=[b2509506551c60e0d600d31364626cfe]
+entity ASRSrv-->
+        <ellipse cx="770" cy="213" fill="#F8F8F8" filter="url(#f178wpe71kl4c7)" rx="8" ry="8" style="stroke: #383838; stroke-width: 1.5;" />
+        <path d="M770,221 L770,248 M757,229 L783,229 M770,248 L757,263 M770,248 L783,263 " fill="none" filter="url(#f178wpe71kl4c7)" style="stroke: #383838; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="76" x="732" y="281.4951">ASR Server</text>
+        <!--MD5=[f0ac4e0cdce742ec28241303db6ff00d]
+entity TTSSrv-->
+        <ellipse cx="770" cy="329" fill="#F8F8F8" filter="url(#f178wpe71kl4c7)" rx="8" ry="8" style="stroke: #383838; stroke-width: 1.5;" />
+        <path d="M770,337 L770,364 M757,345 L783,345 M770,364 L757,379 M770,364 L783,379 " fill="none" filter="url(#f178wpe71kl4c7)" style="stroke: #383838; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="75" x="732.5" y="397.4951">TTS Server</text>
+        <ellipse cx="196.2599" cy="177.852" fill="#F8F8F8" filter="url(#f178wpe71kl4c7)" rx="97.2599" ry="21.852" style="stroke: #383838; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="170" x="111.2599" y="182.5004">connect Virtual Assistant</text>
+        <ellipse cx="196.5118" cy="368.9024" fill="#F8F8F8" filter="url(#f178wpe71kl4c7)" rx="95.0118" ry="21.4024" style="stroke: #383838; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="165" x="114.0118" y="373.5508">interact Virtual Assistant</text>
+        <ellipse cx="196.5118" cy="258.9024" fill="#F8F8F8" filter="url(#f178wpe71kl4c7)" rx="95.0118" ry="21.4024" style="stroke: #383838; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="165" x="114.0118" y="263.5508">interact with Voice Input</text>
+        <ellipse cx="196.4431" cy="478.1886" fill="#F8F8F8" filter="url(#f178wpe71kl4c7)" rx="91.4431" ry="20.6886" style="stroke: #383838; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="157" x="117.9431" y="482.8371">interact with Text Input</text>
+        <ellipse cx="543.9465" cy="495.1893" fill="#F8F8F8" filter="url(#f178wpe71kl4c7)" rx="71.4465" ry="16.6893" style="stroke: #383838; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="110" x="488.9465" y="499.8377">analyse Context</text>
+        <ellipse cx="544.0624" cy="425.0125" fill="#F8F8F8" filter="url(#f178wpe71kl4c7)" rx="80.5624" ry="18.5125" style="stroke: #383838; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="132" x="478.0624" y="429.6609">synthesize Speech</text>
+        <ellipse cx="543.8518" cy="259.0704" fill="#F8F8F8" filter="url(#f178wpe71kl4c7)" rx="88.3518" ry="20.0704" style="stroke: #383838; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="150" x="468.8518" y="263.7188">recognize Voice Input</text>
+        <ellipse cx="543.9431" cy="351.1886" fill="#F8F8F8" filter="url(#f178wpe71kl4c7)" rx="91.4431" ry="20.6886" style="stroke: #383838; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="157" x="465.4431" y="355.8371">generate Voice Output</text>
+        <!--MD5=[e3c2be1e5c18ce39855d2ceba44017cc]
+link Usr to cnVA-->
+        <path d="M38.142,261.9131 C53.2714,250.0325 76.8205,232.5084 99,220 C112.5579,212.3539 127.7815,205.1817 142.0962,199.0029 " fill="none" id="Usr-&gt;cnVA" style="stroke: #383838; stroke-width: 1.0;" />
+        <polygon fill="#383838" points="146.9121,196.9463,137.0643,196.8021,142.3138,198.9099,140.206,204.1594,146.9121,196.9463" style="stroke: #383838; stroke-width: 1.0;" />
+        <!--MD5=[f30bc18290af699fabf883189ace7022]
+link cnVA to chVA-->
+        <path d="M294.2229,177.4376 C330.6296,177.228 372.5837,176.9866 411.5874,176.7621 " fill="none" id="cnVA-&gt;chVA" style="stroke: #383838; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" />
+        <polygon fill="#383838" points="416.8223,176.732,407.7994,172.784,411.8224,176.7609,407.8455,180.7839,416.8223,176.732" style="stroke: #383838; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="61" x="325" y="173.0669">«include»</text>
+        <!--MD5=[f2a336c0079b5292b813a26b83607933]
+reverse link chVA to dcnVA-->
+        <path d="M544,142.3946 C544,122.9987 544,99.0778 544,81.6618 " fill="none" id="chVA&lt;-dcnVA" style="stroke: #383838; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" />
+        <polygon fill="#383838" points="544,147.7361,548,138.7361,544,142.7361,540,138.7361,544,147.7361" style="stroke: #383838; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="60" x="493" y="111.8169">«extend»</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="247" x="403.5" y="126.9497">ext. point: Virtual Assistant connected</text>
+        <!--MD5=[c56de4cc92ad7c71d7bae424457c308a]
+link Usr to inVA-->
+        <path d="M38.1038,283.6748 C64.4538,297.8691 117.5919,326.4936 155.0342,346.6631 " fill="none" id="Usr-&gt;inVA" style="stroke: #383838; stroke-width: 1.0;" />
+        <polygon fill="#383838" points="159.5197,349.0794,153.4932,341.2896,155.1178,346.7081,149.6992,348.3327,159.5197,349.0794" style="stroke: #383838; stroke-width: 1.0;" />
+        <!--MD5=[d1c55bdb354b555c073939cd61734769]
+reverse link inVA to inTxtIn-->
+        <path d="M196.5,395.7282 C196.5,414.7847 196.5,440.0234 196.5,457.4979 " fill="none" id="inVA&lt;-inTxtIn" style="stroke: #383838; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" />
+        <polygon fill="#383838" points="196.5,390.5288,192.5,399.5288,196.5,395.5288,200.5,399.5288,196.5,390.5288" style="stroke: #383838; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="60" x="145.5" y="421.0669">«extend»</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="170" x="94.5" y="436.1997">ext. point: Text Input used</text>
+        <!--MD5=[12770c04f88d428ac1007eb8e7e65623]
+link inVcIn to inVA-->
+        <path d="M196.5,280.6873 C196.5,298.3021 196.5,323.2309 196.5,342.1132 " fill="none" id="inVcIn-&gt;inVA" style="stroke: #383838; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" />
+        <polygon fill="#383838" points="196.5,347.2675,200.5,338.2675,196.5,342.2675,192.5,338.2675,196.5,347.2675" style="stroke: #383838; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="60" x="145.5" y="311.0669">«extend»</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="178" x="90.5" y="326.1997">ext. point: Voice Input used</text>
+        <!--MD5=[e9629b96b0b35e0912bd95dc5ab86ab1]
+reverse link rcVcIn to ASRSrv-->
+        <path d="M634.1226,253.0184 C668.1897,250.7573 705.1521,248.3041 731.9133,246.5279 " fill="none" id="rcVcIn&lt;-ASRSrv" style="stroke: #383838; stroke-width: 1.0;" />
+        <polygon fill="#383838" points="629.1189,253.3505,638.364,256.7457,634.1079,253.0194,637.8342,248.7632,629.1189,253.3505" style="stroke: #383838; stroke-width: 1.0;" />
+        <!--MD5=[69ce352ec3205fd9d918d81a97c41add]
+link inVcIn to rcVcIn-->
+        <path d="M291.9155,259 C341.256,259 401.2558,259 450.3398,259 " fill="none" id="inVcIn-&gt;rcVcIn" style="stroke: #383838; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" />
+        <polygon fill="#383838" points="455.3574,259,446.3574,255,450.3574,259,446.3574,263,455.3574,259" style="stroke: #383838; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="61" x="325" y="255.0669">«include»</text>
+        <!--MD5=[74e7ed27be0390204280d9a942afe4e0]
+reverse link anCnt to DPSrv-->
+        <path d="M617.7284,489.7803 C657.4816,486.9659 704.6405,483.6272 735.8308,481.4191 " fill="none" id="anCnt&lt;-DPSrv" style="stroke: #383838; stroke-width: 1.0;" />
+        <polygon fill="#383838" points="612.4208,490.1561,621.6808,493.5105,617.4083,489.803,621.1158,485.5304,612.4208,490.1561" style="stroke: #383838; stroke-width: 1.0;" />
+        <!--MD5=[353958075436327cb4f5952d9cfac790]
+reverse link synSp to DPSrv-->
+        <path d="M613.3129,437.279 C641.0528,442.6498 673.2002,449.4506 702,457 C713.1623,459.926 725.1887,463.6295 735.9782,467.1594 " fill="none" id="synSp&lt;-DPSrv" style="stroke: #383838; stroke-width: 1.0;" />
+        <polygon fill="#383838" points="608.1863,436.293,616.2686,441.9212,613.0963,437.2376,617.7799,434.0652,608.1863,436.293" style="stroke: #383838; stroke-width: 1.0;" />
+        <!--MD5=[abe833053893e4818d15b58bcebc455d]
+link inVA to anCnt-->
+        <path d="M236.4707,388.6255 C278.6212,408.7668 347.3382,440.0411 409,461 C433.8891,469.4598 461.9976,476.8683 486.0973,482.5918 " fill="none" id="inVA-&gt;anCnt" style="stroke: #383838; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" />
+        <polygon fill="#383838" points="491.1765,483.7873,483.3325,477.8315,486.3095,482.6416,481.4994,485.6186,491.1765,483.7873" style="stroke: #383838; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="61" x="325" y="424.0669">«include»</text>
+        <!--MD5=[ccc96606a1271723122587b034008a9e]
+link inVA to synSp-->
+        <path d="M274.0533,381.4978 C333.5668,391.0885 415.0675,404.2224 472.9062,413.5432 " fill="none" id="inVA-&gt;synSp" style="stroke: #383838; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" />
+        <polygon fill="#383838" points="478.0771,414.3765,469.8282,408.9954,473.1408,413.5809,468.5553,416.8935,478.0771,414.3765" style="stroke: #383838; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="61" x="325" y="386.0669">«include»</text>
+        <!--MD5=[7db41bfa8a06ce082214458d7636bd78]
+reverse link gnVcOut to TTSSrv-->
+        <path d="M639.5232,354.804 C672.2136,356.1059 706.9039,357.4873 732.291,358.4983 " fill="none" id="gnVcOut&lt;-TTSSrv" style="stroke: #383838; stroke-width: 1.0;" />
+        <polygon fill="#383838" points="634.2955,354.5958,643.1292,358.9508,639.2915,354.7948,643.4476,350.9572,634.2955,354.5958" style="stroke: #383838; stroke-width: 1.0;" />
+        <!--MD5=[25f7adf01039c0be99d16145e9b5c593]
+link inVA to gnVcOut-->
+        <path d="M289.1671,364.2 C338.7347,361.6324 399.6512,358.4771 449.495,355.8952 " fill="none" id="inVA-&gt;gnVcOut" style="stroke: #383838; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" />
+        <polygon fill="#383838" points="454.5904,355.6313,445.3955,352.1023,449.5971,355.89,445.8094,360.0916,454.5904,355.6313" style="stroke: #383838; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="61" x="325" y="355.0669">«include»</text>
+        <!--MD5=[4672009d5a396b1611edbab14522a884]
+@startuml
+
+!include domain-lib.plantuml
+
+skinparam monochrome true
+
+left to right direction
+
+!$ep = "\n ext. point: "
+
+actor "$Usr" as Usr
+actor "$DPSrv" as DPSrv
+actor "$ASRSrv" as ASRSrv
+actor "$TTSSrv" as TTSSrv
+
+'User'
+usecase "$cn $VA" as cnVA
+usecase "$in $VA" as inVA
+usecase "$in with $Vc $In" as inVcIn
+usecase "$in with $Txt $In" as inTxtIn
+
+'DP'
+usecase "$an $Cnt" as anCnt
+usecase "$syn $Sp" as synSp
+
+'ASR'
+usecase "$rc $Vc $In" as rcVcIn
+
+'TTS'
+usecase "$gn $Vc $Out" as gnVcOut
+
+
+rectangle "$VA Deploy System" {
+  usecase "$dcn $VA" as dcnVA
+  usecase "$ch connected $VA" as chVA
+}
+
+Usr - -> cnVA
+cnVA ..> chVA : <<include>>
+chVA <. dcnVA : <<extend>> $ep $VA connected
+
+Usr - -> inVA
+inVA <.right. inTxtIn : <<extend>> $ep $Txt $In used
+inVA <.left. inVcIn : <<extend>> $ep $Vc $In used
+
+ASRSrv -up-> rcVcIn
+inVcIn ..> rcVcIn : <<include>>
+
+DPSrv -up-> anCnt
+DPSrv -up-> synSp
+inVA ..> anCnt : <<include>>
+inVA ..> synSp : <<include>>
+
+TTSSrv -up-> gnVcOut
+inVA ..> gnVcOut : <<include>>
+
+@enduml
+
+@startuml
+
+
+
+
+
+
+skinparam monochrome true
+
+left to right direction
+
+
+actor "User" as Usr
+actor "DP Server" as DPSrv
+actor "ASR Server" as ASRSrv
+actor "TTS Server" as TTSSrv
+
+usecase "connect Virtual Assistant" as cnVA
+usecase "interact Virtual Assistant" as inVA
+usecase "interact with Voice Input" as inVcIn
+usecase "interact with Text Input" as inTxtIn
+
+usecase "analyse Context" as anCnt
+usecase "synthesize Speech" as synSp
+
+usecase "recognize Voice Input" as rcVcIn
+
+usecase "generate Voice Output" as gnVcOut
+
+
+rectangle "Virtual Assistant Deploy System" {
+  usecase "disconnect Virtual Assistant" as dcnVA
+  usecase "check connected Virtual Assistant" as chVA
+}
+
+Usr - -> cnVA
+cnVA ..> chVA : <<include>>
+chVA <. dcnVA : <<extend>> \n ext. point:  Virtual Assistant connected
+
+Usr - -> inVA
+inVA <.right. inTxtIn : <<extend>> \n ext. point:  Text Input used
+inVA <.left. inVcIn : <<extend>> \n ext. point:  Voice Input used
+
+ASRSrv -up-> rcVcIn
+inVcIn ..> rcVcIn : <<include>>
+
+DPSrv -up-> anCnt
+DPSrv -up-> synSp
+inVA ..> anCnt : <<include>>
+inVA ..> synSp : <<include>>
+
+TTSSrv -up-> gnVcOut
+inVA ..> gnVcOut : <<include>>
+
+@enduml
+
+PlantUML version 1.2020.15(Sun Jun 28 16:39:45 YEKT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+-->
+    </g>
+</svg>

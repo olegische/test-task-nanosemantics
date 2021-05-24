@@ -9,13 +9,28 @@ left to right direction
 !$ep = "\n ext. point: "
 
 actor "$Usr" as Usr
+actor "$DPSrv" as DPSrv
+actor "$ASRSrv" as ASRSrv
+actor "$TTSSrv" as TTSSrv
 
+'User'
 usecase "$cn $VA" as cnVA
 usecase "$in $VA" as inVA
-usecase "$in with Voice Input" as inVIn
-usecase "$in with Text Input" as inTIn
+usecase "$in with $Vc $In" as inVcIn
+usecase "$in with $Txt $In" as inTxtIn
 
-rectangle System {
+'DP'
+usecase "$an $Cnt" as anCnt
+usecase "$syn $Sp" as synSp
+
+'ASR'
+usecase "$rc $Vc $In" as rcVcIn
+
+'TTS'
+usecase "$gn $Vc $Out" as gnVcOut
+
+
+rectangle "$VA Deploy System" {
   usecase "$dcn $VA" as dcnVA
   usecase "$ch connected $VA" as chVA
 }
@@ -25,7 +40,18 @@ cnVA ..> chVA : <<include>>
 chVA <. dcnVA : <<extend>> $ep $VA connected
 
 Usr --> inVA
-inVA <.left. inVIn : <<extend>> $ep voice input used
-inVA <.right. inTIn : <<extend>> $ep text input used
+inVA <.right. inTxtIn : <<extend>> $ep $Txt $In used
+inVA <.left. inVcIn : <<extend>> $ep $Vc $In used
+
+ASRSrv -up-> rcVcIn
+inVcIn ..> rcVcIn : <<include>>
+
+DPSrv -up-> anCnt
+DPSrv -up-> synSp
+inVA ..> anCnt : <<include>>
+inVA ..> synSp : <<include>>
+
+TTSSrv -up-> gnVcOut
+inVA ..> gnVcOut : <<include>>
 
 @enduml
