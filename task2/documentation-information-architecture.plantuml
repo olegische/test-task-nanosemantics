@@ -11,6 +11,7 @@ skinparam monochrome true
 **** Empathy Map
 **** User Journey Maps
 **** User Flow
+**** Wireframes
 *** General Archimate Diagram
 *** Business Level Requirements
 **** Scope Model
@@ -23,9 +24,26 @@ skinparam monochrome true
 *** User Story Map
 *** Roadmap
 ** Microservices
-*** Swaggers
-*** Canvas
-*** Class-Diagrams
+*** General Architecture Diagram
 
+*** Microservice 1
+**** Description
+**** Class Diagram
+**** API
+***** Component Diagram
+***** Swagger
+***** API Calls Descripton
+**** Onboarding Guide
+**** FAQ
+
+*** Microservice 2
+**** Description
+**** Class Diagram
+**** API
+***** Component Diagram
+***** Swagger
+***** API Calls Descripton
+**** Onboarding Guide
+**** FAQ
 
 @endwbs
