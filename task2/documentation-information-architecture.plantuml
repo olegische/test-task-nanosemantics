@@ -1,0 +1,31 @@
+@startwbs
+
+skinparam monochrome true
+
+* Application Documents
+** General
+*** Glossary
+*** Domain Diagram
+*** User Experience
+**** Personas
+**** Empathy Map
+**** User Journey Maps
+**** User Flow
+*** General Archimate Diagram
+*** Business Level Requirements
+**** Scope Model
+**** System Context
+*** Application Level Requirements
+**** Use Cases
+**** Entity-Relationship Diagram
+**** Data-Flow Diagram
+*** Infrastructure Level Requirements
+*** User Story Map
+*** Roadmap
+** Microservices
+*** Swaggers
+*** Canvas
+*** Class-Diagrams
+
+
+@endwbs
